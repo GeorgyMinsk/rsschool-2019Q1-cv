@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/style.css">
+	<style>
+			body{
+				 background: url(images/fon3.jpg )  no-repeat;
+				 background-position: top center;
+				 background-attachment: fixed;
+				 background-size: cover ;
+				}
+		  </style>
+</head>
+<body>
+        <header>
+                <h1 align="center " class="selection-title">Heorhi Buklaha</h1>
+                <address>
+                    <div>City : Minsk</div>
+                    <div>Pone : +37533644-79-89</div>
+                    <div>Email : buklaga.98@yandex.ru</div>
+                </address>
+                <nav>
+                        <ul id="nav">
+                                <li><span ><a href="index.html" style="color: black">Главная</a></span></li>
+                                <li><span>Обо мне</span>
+                                  <ul>
+                                    <li><a href="index.html#PROFILE">PROFILE</a></li>
+                                    <li><a href="index.html#EDUCATION">EDUCATION</a></li>
+                                    <li><a href="index.html#SKILLS SUMMARY">SKILLS SUMMARY</a>
+                                    <li><a href="index.html#HOBBIES AND INTERESTS">HOBBIES AND INTERESTS</a></li>
+                                    <li><a href="index.html#EDUCATION">EDUCATION</a></li></li>
+                                  </ul>
+                                </li>
+                                <li><span >Я в соц сетях</span>
+                                  <ul>
+                                    <li><a href="https://vk.com/id134706602" target="_blank">Я в VK</a></li>
+                                    <li><a href="https://www.facebook.com/georgiy.buklaga" target="_blank" >Я в FB</a></li>
+                                    <li><a href="https://www.instagram.com/buklaga/" target="_blank">Я в Instagram</a></li>
+                                  </ul>
+                                </li>
+                                <li><span ><a href="contacts.html" style="color: black">Контакты</a></span></li>
+                                <li><span ><a href="question.html" style="color: black">Задать вопрос</a></span></li>
+                              </ul>
+                        </nav> 
+            </header>
+            <hr color="red">
+            
+            <h2>Схема проеза:</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.2714724802163!2d27.564943173805055!3d53.891378647782204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd0059280c3%3A0xcf9fc8149c4481a9!2z0YPQu9C40YbQsCDQntC60YLRj9Cx0YDRjNGB0LrQsNGPIDEw0LAsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1538917260242" width="1024" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <address>
+                    <div>City : Minsk</div>
+                    <div>Pone : +37533644-79-89</div>
+                    <div>Email : buklaga.98@yandex.ru</div>
+                </address>
+            <section>
+                <h2  class="contacts-title"> Вы хотите заказать сайт?</h2>
+                <form action="order.php" method="post">
+                    <div>
+                        <label for="client_name">Имя клиента </label>
+                        <input type="text" id="client_name" name="client_name" placeholder="Введите имя">
+                    </div>
+        
+                    <div>
+        
+                        <label > <span>Введите почту:</span>
+                            <input type="text" name="client_email" placeholder="Введите email"></label> 
+                    </div>
+        
+                    <div>
+                            <label > <span>Выберете пол:</span>
+                                <input type="radio" name="gender" value="mail"> М
+                                <input type="radio" name="gender" value="femail"> Ж
+                            </label>
+                    </div>
+                    <div>
+                        <label >
+                            <span>Дополнительные возможности при заказе сайта</span>
+                            <input type="checkbox" name="" value="adaptive" checked="">
+                            Адаптивность
+                            <input type="checkbox" name="" value="hosting">
+                            Установка на хостинг
+                            <input type="checkbox" name="" value="support">
+                            Дальнейшая поддержка
+                            <input type="checkbox" name="" value="admin">
+                            Установка админ-панели
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <span>Тип сайта</span>
+                            <select name="type" multiple="" id="">
+                                <option value="eshop">Интернет магазин</option>
+                                <option value="landing">Лендинг</option>
+                                <option value="card">Сайт везитка</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div>
+                        <label >
+                            <span>Приложите эскиз</span>
+                            <input type="file" name="file">
+                        </label>
+                    </div>
+                    <!-- <input type="hidden" name="time" value="time_count" > -->
+                    <textarea name="comment" id="" cols="30" rows="10" maxlength="100"></textarea>
+                    <div>
+                        <input type="submit" value="Отправить">
+                        <button type="reset">Сброс</button>
+                    </div>
+                </form>
+        </section>
+</body>
+</html>
