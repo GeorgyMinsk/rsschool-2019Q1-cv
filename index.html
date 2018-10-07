@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="utf-8">
+	<title>Моё портфолио</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style= "background-color: RGB(249, 201, 16) ">
+	<header>
+		<h1 align="center " class="selection-title">Мой сайт партфолио</h1>
+		<address>
+			<div>Город : Москва</div>
+			<div>Телефон:0-033-323-56-72</div>
+		</address>
+	</header>
+	<hr color="red">
+	<main>
+		<div class="left-col">
+			<aside>
+				<form action="AUTH.PHP" method="post">
+					<input type="text" name="name" id="name" placeholder="Введите имя">
+					<input type="password" name="pswrd" id="pswrd" placeholder="Введите пероль">
+					<input type="submit" id="submit" value ="Войти">
+					<input type="reset" >
+				</form>
+					<div>
+						<h2 class="selection-title">Мои контакты</h2>
+						<div>
+							<h3 style="color: blue">Я в соц сете</h3>
+							<ol>
+								<li><a href="https://vk.com/id134706602" target="_blank" title="я в контакте">Я в VK</a></li>
+								<li><a href="#" >Я в FB</a></li>
+								<li><a href="#">Я в TW</a></li>
+							</ol>
+						</div>	
+					</div>
+					<div>.......</div>
+			</aside>
+			<nav>
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Портфолио</a></li>
+					<li><a href="#">Блок</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="right-col">
+			<section>
+					<h2 class="selection-title">Обо мне</h2>
+					<div>
+						<figure>
+							<img id="ava" src="http://lorempixel.com/200/200/sports" alt="Мой аватар" title="Василий Иванов" width="400" height="200" border="2">
+							<figcaption>
+								Моё фото
+							</figcaption>
+						</figure>
+					</div>
+					<div>
+						<h3> Моя биография.</h3>
+						<article>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. <a href="https://vk.com/id134706602" target="_blank">Ut</a> enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath</p>
+						</article>
+			
+					</div>
+			</section>
+			<section>
+					<h2 class="selection-title">Моя страница.</h2>
+					<table border="2" cellpadding="10" cellspacing="10">
+						<tr>
+							<th>Всего проектов</th>
+							<th>Сделанно</th>
+							<th>Приняли</th>
+						</tr>
+						<tr>
+							<th>Статичных</th>
+							<th data-max="100" >80</th>
+							<th>64</th>
+						</tr>
+						<tr>
+							<th>Адаптивных</th>
+							<th>30</th>
+							<th>20</th>
+						</tr>
+					</table>
+			</section>
+			<section>
+					<h2  class="selection-title"> Заказать у меня сайт</h2>
+					<form action="order.php" method="post">
+						<div>
+							<label for="client_name">Имя клиента </label>
+							<input type="text" id="client_name" name="client_name" placeholder="Введите имя">
+						</div>
+			
+						<div>
+			
+							<label > <span>Введите почту:</span>
+								<input type="text" name="client_email" placeholder="Введите email"></label> 
+						</div>
+			
+						<div>
+								<label > <span>Выберете пол:</span>
+									<input type="radio" name="gender" value="mail"> М
+									<input type="radio" name="gender" value="femail"> Ж
+								</label>
+						</div>
+						<div>
+							<label >
+								<span>Дополнительные возможности при заказе сайта</span>
+								<input type="checkbox" name="" value="adaptive" checked="">
+								Адаптивность
+								<input type="checkbox" name="" value="hosting">
+								Установка на хостинг
+								<input type="checkbox" name="" value="support">
+								Дальнейшая поддержка
+								<input type="checkbox" name="" value="admin">
+								Установка админ-панели
+							</label>
+						</div>
+						<div>
+							<label for="">
+								<span>Тип сайта</span>
+								<select name="type" multiple="" id="">
+									<option value="eshop">Интернет магазин</option>
+									<option value="landing">Лендинг</option>
+									<option value="card">Сайт везитка</option>
+								</select>
+							</label>
+						</div>
+						<div>
+							<label >
+								<span>Приложите эскиз</span>
+								<input type="file" name="file">
+							</label>
+						</div>
+						<!-- <input type="hidden" name="time" value="time_count" > -->
+						<textarea name="comment" id="" cols="30" rows="10" maxlength="100"></textarea>
+						<div>
+							<input type="submit" value="Отправить">
+							<button type="reset">Сброс</button>
+						</div>
+					</form>
+			</section>
+		</div>
+	</main>
+	
+	<footer>
+		<div> Это мой сайт, пожалуйста не копируйте его. </div>
+	</footer>
+
+		<p>	<hr color="red"></p>
+		<p><hr color="red"></p>
+		<hr color="red">
+</body>
+</html>
