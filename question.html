@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/style.css">
+	<style>
+			body{
+				 background: url(images/fon3.jpg )  no-repeat;
+				 background-position: top center;
+				 background-attachment: fixed;
+				 background-size: cover ;
+				}
+		  </style>
+</head>
+<body>
+        <header>
+                <h1 align="center " class="selection-title">Heorhi Buklaha</h1>
+                <address>
+                    <div>City : Minsk</div>
+                    <div>Pone : +37533644-79-89</div>
+                    <div>Email : buklaga.98@yandex.ru</div>
+                </address>
+                <nav>
+                        <ul id="nav">
+                                <li><span ><a href="index.html" style="color: black">Главная</a></span></li>
+                                <li><span>Обо мне</span>
+                                  <ul>
+                                    <li><a href="index.html#PROFILE">PROFILE</a></li>
+                                    <li><a href="index.html#EDUCATION">EDUCATION</a></li>
+                                    <li><a href="index.html#SKILLS SUMMARY">SKILLS SUMMARY</a>
+                                    <li><a href="index.html#HOBBIES AND INTERESTS">HOBBIES AND INTERESTS</a></li>
+                                    <li><a href="index.html#EDUCATION">EDUCATION</a></li></li>
+                                  </ul>
+                                </li>
+                                <li><span >Я в соц сетях</span>
+                                  <ul>
+                                    <li><a href="https://vk.com/id134706602" target="_blank">Я в VK</a></li>
+                                    <li><a href="https://www.facebook.com/georgiy.buklaga" target="_blank" >Я в FB</a></li>
+                                    <li><a href="https://www.instagram.com/buklaga/" target="_blank">Я в Instagram</a></li>
+                                  </ul>
+                                </li>
+                                <li><span ><a href="contacts.html" style="color: black">Контакты</a></span></li>
+                                <li><span ><a href="question.html" style="color: black">Задать вопрос</a></span></li>
+                              </ul>
+                        </nav> 
+            </header>
+            <hr color="red">
+        <section>
+                <h2  class="questions-title"> Какой вопрос вы хотели бы задать ?</h2>
+                <form action="order.php" method="post">
+                    <div>
+                        <label for="client_name">Как к вам можно обращаться ? </label>
+                        <input type="text" id="client_name" name="client_name" placeholder="Введите своё имя">
+                    </div>
+        
+                    <div>
+        
+                        <label > <span>Введите почту:</span>
+                            <input type="text" name="client_email" placeholder="Введите свой email"></label> 
+                    </div>
+        
+                    <div>
+                            <label > <span>Выберете свой пол:</span>
+                                <input type="radio" name="gender" value="mail"> М
+                                <input type="radio" name="gender" value="femail"> Ж
+                            </label>
+                    </div>
+                    <div>
+                        <label >
+                            <span>Приложите фай если это нужно</span>
+                            <input type="file" name="file">
+                        </label>
+                    </div>
+                    <textarea name="comment" id="" cols="30" rows="10" maxlength="100"></textarea>
+                    <div>
+                        <input type="submit" value="Отправить">
+                        <button type="reset">Сброс</button>
+                    </div>
+                </form>
+        </section>
+        <footer>	
+                <p><hr color="red"></p>
+                <address>
+                        <div>City : Minsk</div>
+                        <div>Pone : +37533644-79-89</div>
+                        <div>Email : buklaga.98@yandex.ru</div>
+                    </address>
+                    <ul>
+                            <li><a href="https://vk.com/id134706602" target="_blank">Я в VK</a></li>
+                            <li><a href="https://www.facebook.com/georgiy.buklaga" target="_blank" >Я в FB</a></li>
+                            <li><a href="https://www.instagram.com/buklaga/" target="_blank">Я в Instagram</a></li>
+                     </ul>
+                
+                <p>	<hr color="red"></p>
+            </footer>
+</body>
+</html>

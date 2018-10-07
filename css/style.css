@@ -1,0 +1,67 @@
+body {
+	width: 100%;
+	width:1024px;
+	margin: auto;
+	background: url(images/fon3.jpg ) ;
+	background-repeat:  no-repeat; 
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover ;
+	}
+
+.selection-title{
+	color: #FFA500;
+	}	
+h3 {
+	color: Maroon;
+}
+
+footer{
+	
+		flex: 0 0 auto;
+		height: 145px;
+		background: #3498DB;
+	
+}
+footer>ul
+{
+	margin:0px; 
+	padding:0px; 
+	position: relative;  
+	left: 70%; 
+	top: -50px; display:block;
+}
+#nav
+{
+margin:0px; 
+padding:0px; 
+position: absolute; 
+bottom: 15px; 
+left: 32%; 
+top: 70px; display:block;
+}
+#nav > li 
+{
+list-style-type:none; float:left; display:block;
+margin:0px 10px;  position:relative; padding:10px; width:125px;
+}
+#nav > li:hover ul { display:block; }
+#nav > li:hover 
+{
+background-color:#808080; -moz-border-radius:10px;
+-webkit-border-radius:10px; 
+}
+#nav li ul { margin:0px; padding:0px; display:none;}
+#nav li ul li { list-style-type:none; margin:10px 0 0 0;}
+#nav li ul li a 
+{ 
+display:block; padding:5px 10px; 
+color:#A2E200; text-decoration:none;
+} 
+#nav li ul li:hover a 
+{
+background-color:#606060; -moz-border-radius:5px;
+-webkit-border-radius:5px;
+} 
+#nav li span 
+{ cursor:pointer; margin:0px 10px; font-weight:bold; } 
